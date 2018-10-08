@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="50dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="Represent!"
+        android:textAllCaps="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="40sp"
+        android:typeface="serif"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Input your location to get started"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:typeface="normal"
+        app:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/use_your_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Allow Represent! to access your current location"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/zipcode_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:hint="Enter your zip code"
+        android:inputType="text"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/zipcode_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Go to zip code"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
